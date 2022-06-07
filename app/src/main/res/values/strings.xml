@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">templaterecyclerview</string>
+
+    <string-array name="description">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+    </string-array>
+</resources>
