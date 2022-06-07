@@ -1,6 +1,7 @@
 package com.example.templaterecyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                 recyclerView.setAdapter(adapter);
 
+                // gestion du layout pour le positionnement des items
                 LinearLayoutManager layoutManager = new LinearLayoutManager(
                         this,
                         LinearLayoutManager.VERTICAL,
@@ -65,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
 
                 recyclerView.setLayoutManager(layoutManager);
                 recyclerView.setHasFixedSize(true);
+
+                //decoration
+                RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+                recyclerView.addItemDecoration(itemDecoration);
+
 
 
     }

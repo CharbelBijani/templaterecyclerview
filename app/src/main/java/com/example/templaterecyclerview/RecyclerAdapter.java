@@ -1,6 +1,7 @@
 package com.example.templaterecyclerview;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.TextureView;
 import android.view.View;
@@ -46,9 +47,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         holder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "Stagiaire : " + stagiaires[position],
-                        Toast.LENGTH_SHORT)
-                        .show();
+                Intent intent = new Intent(context, SecondActivity.class);
+
+                intent.putExtra("stagiaire", stagiaires[position]);
+                intent.putExtra("desc", descs[position]);
+                intent.putExtra("avatar", avatars[position]);
+
+
+                context.startActivity(intent);
             }
         });
 
