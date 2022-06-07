@@ -2,6 +2,7 @@ package com.example.templaterecyclerview;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.TextureView;
 import android.view.View;
@@ -19,6 +20,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     private Context context;
     private String stagiaires[], descs[];
     private int avatars[];
+
+    //private static final String TAG = "RecyclerAdapter";
 
     //constructeur
 
@@ -51,8 +54,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
                 intent.putExtra("stagiaire", stagiaires[position]);
                 intent.putExtra("desc", descs[position]);
-                intent.putExtra("avatar", avatars[position]);
-
+                intent.putExtra("avatar", String.valueOf(avatars[position]));
 
                 context.startActivity(intent);
             }
